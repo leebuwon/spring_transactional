@@ -1,4 +1,4 @@
-package com.tx.springtransactional.domain.dto;
+package com.tx.springtransactional.domain.product.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

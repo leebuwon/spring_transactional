@@ -1,11 +1,9 @@
 package com.tx.springtransactional.api.product;
 
-import com.tx.springtransactional.domain.dto.CreateProductDto;
-import com.tx.springtransactional.domain.service.ProductService;
-import lombok.AllArgsConstructor;
+import com.tx.springtransactional.domain.product.dto.CreateProductDto;
+import com.tx.springtransactional.domain.product.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

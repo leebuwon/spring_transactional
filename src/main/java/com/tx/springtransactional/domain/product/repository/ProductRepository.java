@@ -1,6 +1,6 @@
-package com.tx.springtransactional.domain.repository;
+package com.tx.springtransactional.domain.product.repository;
 
-import com.tx.springtransactional.domain.entity.Product;
+import com.tx.springtransactional.domain.product.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

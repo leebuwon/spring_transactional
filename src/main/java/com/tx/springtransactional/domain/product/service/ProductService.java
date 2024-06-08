@@ -1,16 +1,13 @@
-package com.tx.springtransactional.domain.service;
+package com.tx.springtransactional.domain.product.service;
 
-import com.tx.springtransactional.domain.dto.CreateProductDto;
-import com.tx.springtransactional.domain.entity.Product;
-import com.tx.springtransactional.domain.repository.ProductRepository;
-import lombok.AllArgsConstructor;
+import com.tx.springtransactional.domain.product.dto.CreateProductDto;
+import com.tx.springtransactional.domain.product.entity.Product;
+import com.tx.springtransactional.domain.product.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.lang.reflect.Member;
 
 @Slf4j
 @Service

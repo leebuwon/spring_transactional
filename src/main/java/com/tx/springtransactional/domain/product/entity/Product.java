@@ -1,4 +1,4 @@
-package com.tx.springtransactional.domain.entity;
+package com.tx.springtransactional.domain.product.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
